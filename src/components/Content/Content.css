@@ -1,0 +1,37 @@
+.content {
+    padding: 5px 0;
+    margin-top: 55px;
+}
+
+.content-container {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.container-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-border {
+    flex-basis: 19%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.section-center {
+    flex-basis: 60%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.section p {
+    font-size: 16px;
+}

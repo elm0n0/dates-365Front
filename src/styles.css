@@ -1,0 +1,65 @@
+/* Estilos generales */
+
+
+:root {
+  --texto: #d6d6d6;
+  /** colores */
+  --azul-1: #0D79FA;
+  --azul-2: #0BA3DE;
+  --azul-3: #00F2F5;
+  --azul-4: #0BDEA6;
+  --azul-5: #0DFA78;
+  /** fondos */
+  --fondo-1: #0e0f0f;
+  
+}
+
+
+body {
+  font-family:'Roboto';
+  color: var(--texto);
+  background-color: var(--fondo-1);
+}
+
+h3 {
+  color: var(--azul-1);
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+a {
+  color: var(--azul-5);
+  text-decoration: none;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+p {
+  font-size: 15px;
+}
+
+a:visited {
+  color: var(--azul-4);
+}
+
+a:hover {
+  color: var(--azul-3);
+}
+
+/* Otros estilos */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

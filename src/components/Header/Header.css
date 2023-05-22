@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  background-color: #0b0c0c;
+  top: 0;
+  left: 0;
+  width: 98%;
+  z-index: 999;
+}
+
+.section-left {
+  flex-basis: 19%;
+  text-align: center;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+}
+
+.section-right {
+  flex-basis: 19%;
+  text-align: center;
+}
+
+.section-right a {
+  margin-left: 10px;
+}
+
+

@@ -1,0 +1,27 @@
+{
+  "short_name": "dates-365",
+  "name": "Proyectos Personales - dates-365",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "description": "dates-365 es una aplicación web que muestra proyectos personales realizados por Juan José Perez Plaza, donde se explican las tecnologías y técnicas utilizadas en su desarrollo.",
+  "keywords": "proyectos personales, desarrollo web, tecnologías de desarrollo, programación, tecnologías web, desarrollo de aplicaciones, portafolio de proyectos, experiencia técnica, desarrollo de software, programación de aplicaciones, desarrollo de proyectos, tecnologías utilizadas, explicación técnica, descripción de técnicas, implementación de tecnologías, metodologías de desarrollo, aplicaciones web, casos de estudio, tecnologías y técnicas de programación, descripción de proyectos"
+}
