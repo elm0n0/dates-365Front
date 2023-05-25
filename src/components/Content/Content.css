@@ -1,11 +1,8 @@
 .content {
     padding: 5px 0;
-    margin-top: 55px;
-}
-
-.content-container {
-    margin: 0 auto;
-    padding: 0px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    text-align: left;
 }
 
 .container-content {
@@ -20,14 +17,62 @@
     text-align: center;
 }
 
+.nicho {
+  display: flex;
+  justify-content: left;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #0DFA78;
+  text-decoration: none;
+}
+
+.nicho:hover {
+  color: #00F2F5;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.titulo {
+  font-size: 14px;
+  color: #0BDEA6;
+}
+.titulo:hover {
+  color: #00F2F5;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
 .section-center {
     flex-basis: 60%;
     border-radius: 5px;
     text-align: center;
 }
 
+.introduccionTitle {
+  text-align: left;
+  text-decoration: underline;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.parrafo {
+  font-size: 17px;
+}
+
+.loBueno {
+  font-size: 17px;
+  color: #0DFA78;
+}
+
+.loMalo {
+  font-size: 17px;
+  color: #f73b3b;
+}
+
 .section h2 {
-    font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -35,3 +80,4 @@
 .section p {
     font-size: 16px;
 }
+  

@@ -11,14 +11,21 @@
   --azul-5: #0DFA78;
   /** fondos */
   --fondo-1: #0e0f0f;
-  
 }
 
 
-body {
+html, body {
+  min-width: 100vh;
+  min-height: 100vh;
   font-family:'Roboto';
   color: var(--texto);
   background-color: var(--fondo-1);
+}
+
+h2 {
+  color: var(--azul-1);
+  font-size: 25px;
+  margin-bottom: 5px;
 }
 
 h3 {
@@ -32,7 +39,6 @@ h3 {
 a {
   color: var(--azul-5);
   text-decoration: none;
-  text-decoration: underline;
   transition: color 0.3s ease;
 }
 
