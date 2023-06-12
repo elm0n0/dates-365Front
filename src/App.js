@@ -1,12 +1,17 @@
-
-import HomePage from './pages/HomePage/HomePage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './pages/homePage/HomePage';
+import DashBoard from './pages/dashboard/DashBoard';
 
 function App() {
   return (
-    <div>
-      {/* Contenido principal de la aplicación */}
-      <HomePage />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />}>          
+        </Route>
+        <Route path="/dashboard" element={<DashBoard />}>          
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 

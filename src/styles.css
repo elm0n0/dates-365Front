@@ -14,12 +14,19 @@
 }
 
 
-html, body {
+html,
+body {
   min-width: 100vh;
   min-height: 100vh;
-  font-family:'Roboto';
+  font-family: 'Roboto';
   color: var(--texto);
   background-color: var(--fondo-1);
+}
+
+h1 {
+  color: var(--fondo-1);
+  font-size: 25px;
+  margin-bottom: 5px;
 }
 
 h2 {
@@ -34,6 +41,43 @@ h3 {
   padding: 0px;
   margin: 0px;
   margin-bottom: 5px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #424242;
+  border-radius: 5px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0BA3DE;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #206ec2
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: #0e0f0f;
+}
+
+label {
+  color: #0BA3DE;
 }
 
 a {
@@ -54,18 +98,18 @@ a:hover {
   color: var(--azul-3);
 }
 
-/* Otros estilos */
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
 }
 
-.button:hover {
-  background-color: #0056b3;
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
 }
